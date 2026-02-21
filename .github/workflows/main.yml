@@ -81,7 +81,3 @@ jobs:
           git add htmlcov/
           git commit -m "Update coverage report [skip ci]" || echo "No changes to commit"
           git push
-
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
